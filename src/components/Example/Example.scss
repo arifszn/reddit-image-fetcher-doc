@@ -6,4 +6,14 @@
    .flex-section .item {
       padding: 10px;
    }
+
+   .json-viewer__body {
+      font-size: 12.5px;
+      .fetching-now {
+         color: rgb(38, 139, 210);
+      }
+      > ul {
+         background: unset !important;
+      }
+   }
 }

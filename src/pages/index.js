@@ -103,6 +103,15 @@ function Home() {
           </div>
         </div>
       </header>
+      <div className={clsx(styles.announcement, styles.announcementDark)}>
+          <div className={styles.announcementInner}>
+            PHP version is also available{' '}
+            <a target="_blank" href="https://github.com/arifszn/reddit-image-fetcher-php">
+              here
+            </a>
+            .
+          </div>
+        </div>
       <main>
         {features && features.length > 0 && (
           <section className={styles.features}>

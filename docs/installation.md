@@ -3,20 +3,14 @@ id: installation
 title: Installation
 ---
 
-## Requirements
-
-- React version >= 16.8 or above
-
-## Installation
-
-Install via <a href="https://www.npmjs.com/package/reactive-button">NPM</a>
+Install via <a href="https://www.npmjs.com/package/reddit-image-fetcher">NPM</a>
 ```sh
-npm install --save reactive-button
+npm install --save reddit-image-fetcher
 ```
 
-Install via <a href="https://yarnpkg.com/package/reactive-button">Yarn</a>
+Install via <a href="https://yarnpkg.com/package/reddit-image-fetcher">Yarn</a>
 ```sh
-yarn add reactive-button
+yarn add reddit-image-fetcher
 ```
 
 Now you are good to go.

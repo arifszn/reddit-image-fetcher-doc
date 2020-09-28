@@ -23,9 +23,10 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-icons": "^3.11.0",
+    "react-json-tree": "^0.13.0",
     "react-live": "^2.2.2",
     "reactive-button": "^1.1.19",
-    "reddit-image-fetcher": "^1.1.1",
+    "reddit-image-fetcher": "^1.1.2",
     "styled-components": "^5.2.0"
   },
   "browserslist": {

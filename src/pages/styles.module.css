@@ -36,9 +36,6 @@
   background-color: #f7f7f7;
 }
 
-html[data-theme=dark] .features {
-    background-color: #18191a;
-}
 
 .featureImage {
   height: 200px;
@@ -62,6 +59,27 @@ html[data-theme=dark] .features {
 
 .heroProjectKeywordsSecondary {
   color: var(--ifm-color-primary-lighter);
+}
+
+.announcement {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(227, 234, 234);
+  color: #6c757d;
+}
+
+
+
+html[data-theme=dark] .announcement {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.announcementInner {
+  margin: 0 auto;
+  max-width: 768px;
 }
 
 /* animations */
