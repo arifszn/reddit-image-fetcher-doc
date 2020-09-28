@@ -109,13 +109,13 @@ The functions are asynchronous and return array.
          <td align="left">addSubReddit</td>
          <td align="center">[string]</td>
          <td align="left">Add subreddits to subreddit library</td>
-         <td align="center">[]</td>
+         <td align="center">[ ]</td>
       </tr>
       <tr>
          <td align="left">removeSubReddit</td>
          <td align="center">[string]</td>
          <td align="left">Remove subreddits from subreddit library</td>
-         <td align="center">[]</td>
+         <td align="center">[ ]</td>
       </tr>
       <tr>
          <td align="left">removeAllSubReddit</td>
