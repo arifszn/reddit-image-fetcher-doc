@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Reddit Image Fetcher',
-  tagline: 'A JavaScript package for fetching reddit memes, wallpapers and more',
+  tagline: 'A JavaScript package for fetching reddit images, memes, wallpapers and more',
   url: 'https://arifszn.github.io',
   baseUrl: '/reddit-image-fetcher/',
   onBrokenLinks: 'throw',
@@ -11,7 +11,7 @@ module.exports = {
   ],
   themeConfig: {
     image: 'img/logo/logo.png',
-    metadatas: [{name: 'Reddit Image Fetcher', content: 'A JavaScript package for fetching reddit memes, wallpapers and more'}],
+    metadatas: [{name: 'Reddit Image Fetcher', content: 'A JavaScript package for fetching reddit images, memes, wallpapers and more'}],
     sidebarCollapsible: false,
     prism: {
       theme: require('prism-react-renderer/themes/palenight'),
@@ -26,7 +26,7 @@ module.exports = {
       isCloseable: true, // Defaults to `true`.
     },
     googleAnalytics: {
-      trackingID: 'UA-138314953-4',
+      trackingID: 'UA-138314953-5',
     },
     colorMode: {
       defaultMode: 'light',

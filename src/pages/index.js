@@ -11,6 +11,14 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const features = [
   {
+    title: 'Reddit Images',
+    description: (
+      <>
+        Fetch images from predefined subreddits or any given subreddits.
+      </>
+    ),
+  },
+  {
     title: 'Memes',
     description: (
       <>
@@ -105,7 +113,7 @@ function Home() {
       </header>
       <div className={clsx(styles.announcement, styles.announcementDark)}>
           <div className={styles.announcementInner}>
-            PHP version is also available{' '}
+            PHP version is available{' '}
             <a target="_blank" href="https://github.com/arifszn/reddit-image-fetcher-php">
               here
             </a>
@@ -148,12 +156,20 @@ function Home() {
                   </div>
                   <div className="container text--center">
                     <div className="row">
-                      <div className="col col--4 col--offset-2 py-4">
+                      <div className="col col--4 py-4">
                         <h2 className={clsx(styles.featureHeading)}>
                           {features[3].title}
                         </h2>
                         <p className="padding-horiz--md">
                           {features[3].description}
+                        </p>
+                      </div>
+                      <div className="col col--4 py-4">
+                        <h2 className={clsx(styles.featureHeading)}>
+                          {features[4].title}
+                        </h2>
+                        <p className="padding-horiz--md">
+                          {features[4].description}
                         </p>
                       </div>
                       <div className="col col--4 py-4">

@@ -5,27 +5,32 @@ sidebar_label: Introduction
 slug: /
 ---
 
-<span className="keyword">Reddit Image Fetcher</span> is a JavaScript package that can fetch bulk memes, wallpapers or custom image type. Supports node, react and other any javascript language.
+<span className="keyword">Reddit Image Fetcher</span> is a JavaScript package that can fetch bulk images, memes or wallpapers. Supports node, react and other any JavaScript language.
 
 
 ## Example
 
 ```jsx 
-RedditImageFetcher.getMemes()
+RedditImageFetcher.fetch()
 .then(result => {
     console.log(result);
 });
 ```
-import Example from '../src/components/Example/Example';
+import Result from '../src/components/Demo/Result';
 
-<Example />
+<Result />
 
 ## Features
 
+* Bulk images
 * Bulk memes
 * Bulk wallpapers
 * Customizable
 * Lightweight <small><code><20KB</code></small>
+
+## Demo
+
+Checkout the package is in action: [https://memewall.netlify.app](https://memewall.netlify.app)
 
 ## Support
 
