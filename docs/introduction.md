@@ -10,6 +10,12 @@ slug: /
 
 ## Example
 
+```jsx 
+RedditImageFetcher.getMemes()
+.then(result => {
+    console.log(result);
+});
+```
 import Example from '../src/components/Example/Example';
 
 <Example />
