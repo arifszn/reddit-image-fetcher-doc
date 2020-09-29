@@ -38,7 +38,7 @@ await redditImageFetcher.fetch({
 
 ### Custom
 It can be used other than fetching memes and wallpapers.
-Custom image fetch from defined subreddits:
+<p>Custom image fetch from given subreddits:</p>
 
 ```jsx 
 await redditImageFetcher.fetch({
@@ -47,8 +47,6 @@ await redditImageFetcher.fetch({
     subreddit: ['cats', 'Catswhoyell', 'sleepingcats'] 
 }); //returns 50 cat images
 ```
-
-<!-- <strong>Note:</strong> For more usage, visit <Link to="/docs/Playground#editor-playground">Editor Playground</Link> and change the codes. -->
 
 ## Result
 
