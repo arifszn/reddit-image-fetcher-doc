@@ -30,7 +30,7 @@ import Result from '../src/components/Demo/Result';
 
 ## Demo
 
-Checkout the package is in action: [https://memewall.netlify.app](https://memewall.netlify.app)
+Checkout the package is in action: [https://memedb.netlify.app](https://memedb.netlify.app)
 
 ## Support
 
