@@ -11,7 +11,7 @@ slug: /
 ## Example
 
 ```jsx 
-RedditImageFetcher.fetch()
+redditImageFetcher.fetch()
 .then(result => {
     console.log(result);
 });
