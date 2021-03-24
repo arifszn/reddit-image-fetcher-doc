@@ -5,7 +5,7 @@ title: Installation
 
 Install via <a href="https://www.npmjs.com/package/reddit-image-fetcher">NPM</a>
 ```sh
-npm install --save reddit-image-fetcher
+npm install reddit-image-fetcher
 ```
 
 Install via <a href="https://yarnpkg.com/package/reddit-image-fetcher">Yarn</a>
